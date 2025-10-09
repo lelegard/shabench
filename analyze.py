@@ -12,7 +12,7 @@ import re, os, sys, pprint
 GIGA = 1000000000.0
 SEPARATOR = '   '
 
-#
+##
 # List of CPU cores and corresponding result files.
 #
 RESULTS = [
@@ -33,12 +33,12 @@ RESULTS = [
     {'cpu': 'Apple M4',    'frequency': 4.40, 'file': 'arm-apple-m4-macos.txt'}
 ]
 
-#
+##
 # Column headers.
 #
 HEADERS = {'cpu': 'CPU core', 'freq': 'Frequency', 'openssl': 'OpenSSL'}
 
-#
+##
 # Load and analyze a "results" structure.
 #
 # A "results" structure is a list of dictionaries. Each dictionary describes one test.
@@ -127,7 +127,7 @@ def load_results(results, input_dir='.'):
     # End of analysis, return the list of algos.
     return algos
 
-#
+##
 # Generate a text table of results.
 #
 # @param [in] results Table results.
