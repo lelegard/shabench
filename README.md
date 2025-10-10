@@ -8,7 +8,8 @@ to better specialized assembly code in critical operations.
 The test algorithms are SHA1, SHA2 and SHA3. With SHA2 and SHA3, the only
 tested digest sizes are 256 and 512 bits.
 
-Note: an equivalent [aesbench](https://github.com/lelegard/aesbench) project exists for AES.
+Note: equivalent [aesbench](https://github.com/lelegard/aesbench) and
+[rsabench](https://github.com/lelegard/rsabench) projects exist for AES and RSA.
 
 ## Performance results
 
