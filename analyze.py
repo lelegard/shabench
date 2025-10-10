@@ -18,6 +18,7 @@ SEPARATOR = '   '
 RESULTS = [
     {'cpu': 'i7-8565U',    'frequency': 4.20, 'file': 'intel-i7-8565U-linux-vm.txt'},
     {'cpu': 'i7-13700H',   'frequency': 5.00, 'file': 'intel-i7-13700H-linux-vm.txt'},
+    {'cpu': 'Xeon G6242R', 'frequency': 3.10, 'file': 'intel-xeon-gold-6242r-linux.txt'},
     {'cpu': 'Xeon G6348',  'frequency': 2.60, 'file': 'intel-xeon-gold-6348-linux.txt'},
     {'cpu': 'Xeon M9460',  'frequency': 3.50, 'file': 'intel-xeon-max-9460-linux.txt'},
     {'cpu': 'EPYC 7543P',  'frequency': 3.70, 'file': 'amd-epyc-7543p-linux.txt'},
