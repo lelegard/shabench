@@ -15,7 +15,7 @@ jobs:
     - name: Run benchmarks
       run: |
         make
-        build/rsabench >results/arm-cobalt100-neoverse-n2-linux.txt
+        build/shabench >results/arm-cobalt100-neoverse-n2-linux.txt
     - name: Upload results
       uses: actions/upload-artifact@v4
       with:
